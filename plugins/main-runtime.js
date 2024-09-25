@@ -10,7 +10,7 @@ m.react('⏳')
       }) * 1000
     }
     let muptime = clockString(_muptime)
-    let str = `🟢ᴘʀɪɴᴄᴇ ᴍᴅ ᴜᴘᴛɪᴍᴇ\n\n🎗️ʙᴏᴛ ᴀᴄᴛɪᴠᴇ ᴅᴜʀᴀᴛɪᴏɴ\n *${muptime}⏰*`
+    let str = `🟢ᴀɴꜱʜ ᴍᴅ ᴜᴩᴛɪᴍᴇ\n\n🎗️ʙᴏᴛ ᴀᴄᴛɪᴠᴇ ᴅᴜʀᴀᴛɪᴏɴ\n *${muptime}⏰*`
     conn.sendMessage(m.chat, {
       text: str,
       contextInfo: {
@@ -24,10 +24,10 @@ m.react('⏳')
             },
       forwardingScore: 999,
       externalAdReply: {
-      title: "🎗️ᴘʀɪɴᴄᴇ ᴍᴅ🎗️",
+      title: "🎗️ᴀɴꜱʜ ᴍᴅ🎗️",
       body: "ʀᴜɴɪɴɢ sɪɴᴄᴇ",
       thumbnailUrl: pp,
-      sourceUrl: '',
+      sourceUrl: 'https://whatsapp.com/channel/0029Vak01yaCBtxKXcPGu41t',
       mediaType: 1,
       renderLargerThumbnail: false
       }}})
